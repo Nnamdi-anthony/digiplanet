@@ -1,0 +1,856 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:48:42
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.29                                |7.3.27
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-07-12 08:28:23
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 1.4.0
+DB__________________: 5.6.41
+DB TABLES___________: 59
+DB ROWS_____________: 3,037
+DB FILE SIZE________: 4.49MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.27 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/7.3.27
+DOC ROOT____________: "C:/xampp/htdocs/digi"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/digi/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/digi/20200903_stationerysample_[HASH]_20210712082823_archive.zip"
+SIZE________________: 136.78MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/xampp/htdocs/digi/20200903_stationerysample_[HASH]_20210712082823_archive.zip"
+SIZE________________: 136.78MBFile timestamp set to Current: 2021-08-16 11:50:32
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 11:50:32 - RUNTIME: 110.6118 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:51:00
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.18 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__[HASH].sql (2.52MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/digi/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	514
+
+lgu_actionscheduler_actions: (24)
+lgu_actionscheduler_claims: (0)
+lgu_actionscheduler_groups: (4)
+lgu_actionscheduler_logs: (68)
+lgu_commentmeta: (0)
+lgu_comments: (0)
+lgu_duplicator_packages: (0)
+lgu_e_submissions: (0)
+lgu_e_submissions_actions_log: (0)
+lgu_e_submissions_values: (0)
+lgu_links: (0)
+lgu_nextend2_image_storage: (2)
+lgu_nextend2_section_storage: (2)
+lgu_nextend2_smartslider3_generators: (0)
+lgu_nextend2_smartslider3_sliders: (2)
+lgu_nextend2_smartslider3_sliders_xref: (1)
+lgu_nextend2_smartslider3_slides: (4)
+lgu_options: (659)
+lgu_postmeta: (1559)
+lgu_posts: (229)
+lgu_smush_dir_images: (0)
+lgu_term_relationships: (39)
+lgu_term_taxonomy: (43)
+lgu_termmeta: (36)
+lgu_terms: (43)
+lgu_usermeta: (63)
+lgu_users: (1)
+lgu_wc_admin_note_actions: (44)
+lgu_wc_admin_notes: (44)
+lgu_wc_category_lookup: (8)
+lgu_wc_customer_lookup: (0)
+lgu_wc_download_log: (0)
+lgu_wc_order_coupon_lookup: (0)
+lgu_wc_order_product_lookup: (0)
+lgu_wc_order_stats: (0)
+lgu_wc_order_tax_lookup: (0)
+lgu_wc_product_meta_lookup: (35)
+lgu_wc_reserved_stock: (0)
+lgu_wc_tax_rate_classes: (2)
+lgu_wc_webhooks: (0)
+lgu_woocommerce_api_keys: (0)
+lgu_woocommerce_attribute_taxonomies: (2)
+lgu_woocommerce_downloadable_product_permissions: (0)
+lgu_woocommerce_log: (0)
+lgu_woocommerce_order_itemmeta: (0)
+lgu_woocommerce_order_items: (0)
+lgu_woocommerce_payment_tokenmeta: (0)
+lgu_woocommerce_payment_tokens: (0)
+lgu_woocommerce_sessions: (1)
+lgu_woocommerce_shipping_zone_locations: (0)
+lgu_woocommerce_shipping_zone_methods: (0)
+lgu_woocommerce_shipping_zones: (0)
+lgu_woocommerce_tax_rate_locations: (0)
+lgu_woocommerce_tax_rates: (0)
+lgu_wpforms_db: (5)
+lgu_wpforms_tasks_meta: (36)
+lgu_wpmailsmtp_tasks_meta: (1)
+lgu_yith_wcwl: (1)
+lgu_yith_wcwl_lists: (1)
+Removed '89' cache/transient rows
+
+INSERT DATA RUNTIME: 1.1566 sec.
+STEP-2 COMPLETE @ 11:51:01 - RUNTIME: 1.1741 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:51:16
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Digi Test"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home2/zzlqzpmy/public_html/stationerysample"
+path_new______________: "C:/xampp/htdocs/digi"
+siteurl_______________: "http://localhost/digi"
+url_old_______________: "https://impactherwebsitesample.com/stationerysample"
+url_new_______________: "http://localhost/digi"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "lgu_actionscheduler_actions"_____________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_actionscheduler_claims"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_actionscheduler_groups"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_actionscheduler_logs"________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_comments"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_e_submissions"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_e_submissions_actions_log"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_e_submissions_values"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_nextend2_image_storage"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_nextend2_section_storage"____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_nextend2_smartslider3_generators"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_nextend2_smartslider3_sliders"_______________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_nextend2_smartslider3_sliders_xref"__________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_nextend2_smartslider3_slides"________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_options"_____________________________________[ROWS:   659][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_postmeta"____________________________________[ROWS:  1559][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_posts"_______________________________________[ROWS:   229][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_smush_dir_images"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_term_relationships"__________________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_term_taxonomy"_______________________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_termmeta"____________________________________[ROWS:    36][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_terms"_______________________________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_usermeta"____________________________________[ROWS:    63][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_users"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_wc_admin_note_actions"_______________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_wc_admin_notes"______________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_wc_category_lookup"__________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_wc_customer_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_wc_download_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_wc_order_coupon_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_wc_order_product_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_wc_order_stats"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_wc_order_tax_lookup"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_wc_product_meta_lookup"______________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_wc_reserved_stock"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_wc_tax_rate_classes"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_wc_webhooks"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_api_keys"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_attribute_taxonomies"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_order_itemmeta"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_order_items"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_payment_tokenmeta"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_payment_tokens"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_sessions"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_woocommerce_shipping_zone_locations"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_shipping_zone_methods"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_shipping_zones"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_tax_rate_locations"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_woocommerce_tax_rates"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "lgu_wpforms_db"__________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_wpforms_tasks_meta"__________________________[ROWS:    36][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_wpmailsmtp_tasks_meta"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_yith_wcwl"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+
+EVALUATE TABLE: "lgu_yith_wcwl_lists"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home2/zzlqzpmy/public_html/stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  2:"\/home2\/zzlqzpmy\/public_html\/stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  3:"%2Fhome2%2Fzzlqzpmy%2Fpublic_html%2Fstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  4:"\home2\zzlqzpmy\public_html\stationerysample" ====> "C:/xampp/htdocs/digi"
+	SEARCH  5:"\\home2\\zzlqzpmy\\public_html\\stationerysample" => "C:\/xampp\/htdocs\/digi"
+	SEARCH  6:"%5Chome2%5Czzlqzpmy%5Cpublic_html%5Cstationerysample" => "C%3A%2Fxampp%2Fhtdocs%2Fdigi"
+	SEARCH  7:"//impactherwebsitesample.com/stationerysample" ===> "//localhost/digi"
+	SEARCH  8:"\/\/impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH  9:"%2F%2Fimpactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 10:"//www.impactherwebsitesample.com/stationerysample" => "//localhost/digi"
+	SEARCH 11:"\/\/www.impactherwebsitesample.com\/stationerysample" => "\/\/localhost\/digi"
+	SEARCH 12:"%2F%2Fwww.impactherwebsitesample.com%2Fstationerysample" => "%2F%2Flocalhost%2Fdigi"
+	SEARCH 13:"https://localhost/digi" ==========================> "http://localhost/digi"
+	SEARCH 14:"https:\/\/localhost\/digi" =======================> "http:\/\/localhost\/digi"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fdigi" ==================> "http%3A%2F%2Flocalhost%2Fdigi"
+--------------------------------------
+SCANNED:	Tables:59 	|	 Rows:2959 	|	 Cells:17619 
+UPDATED:	Tables:4 	|	 Rows:201 	|	 Cells:225 
+ERRORS:		0 
+RUNTIME:	0.489800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:51:16 - RUNTIME: 0.6013 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

@@ -1,0 +1,31 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: August 16, 2021 7:23 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.0
+WORDPRESS:	5.8
+PHP INFO:	7.3.27 | SAPI: apache2handler
+SERVER:		Apache/2.4.46 (Win64) OpenSSL/1.1.1j PHP/7.3.27 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (512M default) 
+MEMORY STACK: 8MB
+[PHP ERR][WARN] MSG:mysqli_query(): (HY000/6): Error on delete of 'C:\xampp\tmp\#sql3cd4_8f3_0.MAI' (Errcode: 13 &quot;Permission denied&quot;) [CODE:2|FILE:C:\xampp\htdocs\digi\wp-includes\wp-db.php|LINE:2056]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->save, wpdb->insert, wpdb->_insert_replace_helper, wpdb->process_fields, wpdb->process_field_charsets, wpdb->get_col_charset, wpdb->get_table_charset, wpdb->get_results, wpdb->query, wpdb->_do_query, mysqli_query, DUP_Handler::error, DUP_Handler::getMessage
+
+==================================================================================
+DUPLICATOR ERROR
+Please try again! If the error persists see the Duplicator 'Help' menu.
+---------------------------------------------------------------------------------
+MESSAGE:
+	Duplicator is unable to insert a package record into the database table.
+DETAILS:
+	'Error on delete of 'C:\xampp\tmp\#sql3cd4_8f3_0.MAI' (Errcode: 13 "Permission denied")'
+TRACE:
+	 1. class.pack.php : Error (456)
+	 2. ctrl.package.php : save (89)
+	 3. class-wp-hook.php : duplicator_package_build (303)
+	 4. class-wp-hook.php : apply_filters (327)
+	 5. plugin.php : do_action (470)
+	 6. admin-ajax.php : do_action (187)
+==================================================================================
+
